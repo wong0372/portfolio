@@ -1,5 +1,5 @@
 /* global style setting */
-.container {
+.whole-container {
     min-width: 414px;
 }
 
@@ -23,6 +23,7 @@ p, span, div {
     --bs-secondary-rgb: 1, 55, 254;
     --bs-dark: #F5F2E9;
     --bs-dark-rgb: 245, 242, 233;
+    --bs-custom-color: black; 
 }
 
 /* style nav bar */
