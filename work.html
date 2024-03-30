@@ -42,7 +42,7 @@
   <body>
     <header>
       <!-- nav bar -->
-      <nav class="navbar navbar-expand-lg bg-white shadow">
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm">
         <div class="container-fluid">
           <a class="navbar-brand mx-3" href="index.html">
             <img
@@ -96,33 +96,47 @@
         <h1 class="col-12 text-center text-md-start px-md-5 py-5">My Work</h1>
 
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <a href="#"
-                ><img
-                  src="images/1_cakepop.jpg"
-                  alt="Brochure cover"
-                  class="img-fluid"
-                  style="max-height: 100%"
-              /></a>
+          <div class="row g-4">
+            <div class="col-9 ms-auto me-auto col-md-4">
+              <div class="mask-container">
+                <a href="w-brochure.html"
+                  ><img
+                    src="images/1_cakepop.jpg"
+                    alt="Brochure cover"
+                    class="img-fluid shadow"
+                  />
+                  <div class="mask"></div>
+                  <span class="mask-title">Brochure</span></a
+                >
+              </div>
             </div>
-            <div class="col-12 col-md-4 vh-md-100">
-              <a href="#"
-                ><img
-                  src="images/1_avatar-1.jpg"
-                  alt="Avatar cover"
-                  class="img-fluid"
-                  style="max-height: 80%"
-              /></a>
+
+            <div class="col-9 ms-auto me-auto col-md-4">
+              <div class="mask-container">
+                <a href="w-avatar.html"
+                  ><img
+                    src="images/1_avatar.jpg"
+                    alt="Avatar cover"
+                    class="img-fluid shadow"
+                  />
+                  <div class="mask"></div>
+                  <span class="mask-title">Avatar</span></a
+                >
+              </div>
             </div>
-            <div class="col-12 col-md-4">
-              <a href="#"
-                ><img
-                  src="images/1_portrait-1.jpg"
-                  alt="Portrait cover"
-                  class="img-fluid"
-                  style="max-height: 100%"
-              /></a>
+
+            <div class="col-9 ms-auto me-auto col-md-4 mb-5">
+              <div class="mask-container">
+                <a href="w-portrait.html"
+                  ><img
+                    src="images/1_portrait.jpg"
+                    alt="Portrait cover"
+                    class="img-fluid shadow"
+                  />
+                  <div class="mask"></div>
+                  <span class="mask-title">Portrait</span></a
+                >
+              </div>
             </div>
           </div>
         </div>
