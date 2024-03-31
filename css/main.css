@@ -117,6 +117,7 @@ position: relative;
     transition: opacity 0.2s ease;
 }
 
+/* add animation when hover the cover on work page */
 .grow {
     transition: transform 0.3s ease;
 }
