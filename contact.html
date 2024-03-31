@@ -47,9 +47,22 @@
 
   <body>
     <div class="whole-container">
-      <header>
+      <!-- add skip link -->
+      <ul role="list" class="skip-links list-unstyled fw-bold">
+        <li>
+          <a class="py-2 px-2 visually-hidden-focusable" href="#main-nav"
+            >Skip to main nav</a
+          >
+        </li>
+        <li>
+          <a class="px-2 py-2 visually-hidden-focusable" href="#main-content"
+            >Skip to main content</a
+          >
+        </li>
+      </ul>
+      <header class="sticky-top">
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm" id="main-nav">
           <div class="container-fluid">
             <a class="navbar-brand mx-3" href="index.html">
               <img
@@ -101,7 +114,7 @@
         </nav>
       </header>
 
-      <main class="min-vh-100">
+      <main class="min-vh-100" id="main-content">
         <div class="position-relative">
           <h1 class="col-12 text-center text-md-start px-md-5 py-5">
             Let's Talk

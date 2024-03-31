@@ -26,6 +26,14 @@ p, span, div {
     --bs-custom-color: black; 
 }
 
+/* style skip links */
+
+  .skip-links a{
+    background-color:var(--bs-primary); 
+    color:black;
+  }
+
+
 /* style nav bar */
 .navbar-nav .nav-item .active,  
 .navbar-nav .nav-link:hover,
@@ -52,7 +60,7 @@ p, span, div {
     color: black;
 }
 
-/* style home page text & butotn in mobile version */
+/* style home page text & button */
 
 .home-text {
     text-align: center;
@@ -135,6 +143,31 @@ footer i {
 footer {
     height: 20vh; 
 
+}
+
+/* style back to top button */
+
+.bi-arrow-up {
+    position: fixed;
+    bottom: 6rem; 
+    right: 1rem; 
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btntop .active,  
+.btntop:hover,
+.btntop:focus,
+.btntop:active {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
 /**************** Tablet and Desktop style ****************/
