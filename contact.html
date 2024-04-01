@@ -133,11 +133,24 @@
           <div
             class="col-10 col-md-3 ms-auto me-md-0 d-none d-md-block position-absolute bottom-0 end-0"
           >
-            <img
-              src="images/0_contact.png"
-              alt="Contact me photo"
-              class="img-fluid image"
-            />
+            <picture>
+              <source
+                srcset="images2/0_contact-small.png"
+                media="(max-width:767px)"
+              />
+
+              <source
+                srcset="images2/0_contact-large.png"
+                media="(min-width:768px)"
+              />
+
+              <img
+                role="img"
+                src="images/0_contact.png"
+                alt="Contact me photo"
+                class="img-fluid image"
+              />
+            </picture>
           </div>
 
           <!-- contact form from css library -->

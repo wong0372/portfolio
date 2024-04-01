@@ -119,11 +119,24 @@
             >
               <div class="card border-0 rounded-0">
                 <div class="card-body home-main">
-                  <img
-                    src="images/0_about.png"
-                    alt="Emma's photo"
-                    class="img-fluid"
-                  />
+                  <picture>
+                    <source
+                      srcset="images2/0_about-small.png"
+                      media="(max-width:767px)"
+                    />
+
+                    <source
+                      srcset="images2/0_about-large.png"
+                      media="(min-width:768px)"
+                    />
+
+                    <img
+                      role="img"
+                      src="images/0_about.png"
+                      alt="Emma's photo"
+                      class="img-fluid"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
