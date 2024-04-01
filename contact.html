@@ -168,10 +168,12 @@
             class="content-form col-10 mx-auto col-md-8 col-lg-5 border rounded p-4 border-black mb-5"
           >
             <div class="field py-2">
-              <label class="label has-text-black">Name</label>
+              <label for="fullname" class="label has-text-black">Name</label>
               <div class="control">
                 <input
+                  aria-label="Add Full Name"
                   class="input border-black has-background-white"
+                  id="fullname"
                   type="text"
                   placeholder="Your name"
                 />
@@ -179,10 +181,12 @@
             </div>
 
             <div class="field py-2">
-              <label class="label has-text-black">Email</label>
+              <label for="youremail" class="label has-text-black">Email</label>
               <div class="control">
                 <input
+                  aria-label="Add your email"
                   class="input border-black has-background-white"
+                  id="youremail"
                   type="text"
                   placeholder="Your Email"
                 />
@@ -190,10 +194,12 @@
             </div>
 
             <div class="field py-2">
-              <label class="label has-text-black">Subject</label>
+              <label for="subject" class="label has-text-black">Subject</label>
               <div class="control">
                 <input
+                  aria-label="Add the subject"
                   class="input border-black has-background-white"
+                  id="subject"
                   type="text"
                   placeholder="Text input"
                 />
@@ -201,10 +207,14 @@
             </div>
 
             <div class="field py-2">
-              <label class="label has-text-black">Message</label>
+              <label for="yourmessage" class="label has-text-black"
+                >Message</label
+              >
               <div class="control">
                 <textarea
+                  aria-label="Add your message"
                   class="textarea border-black has-background-white"
+                  id="yourmessage"
                   placeholder="Your Message"
                 ></textarea>
               </div>
@@ -233,16 +243,22 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-12 col-md-6 order-md-2 text-md-end">
-              <a href="contact.html">
+              <a href="contact.html" aria-label="visit contact page">
                 <i class="bi bi-envelope px-3 py-3 fs-3"></i
               ></a>
-              <a href="https://www.instagram.com/"
+              <a
+                href="https://www.instagram.com/"
+                aria-label="visit instagram page"
                 ><i class="bi bi-instagram px-3 py-3 fs-3"></i
               ></a>
-              <a href="https://www.whatsapp.com/"
+              <a
+                href="https://www.whatsapp.com/"
+                aria-label="visit whatspp page"
                 ><i class="bi bi-whatsapp px-3 py-3 fs-3"></i
               ></a>
-              <a href="https://www.linkedin.com"
+              <a
+                href="https://www.linkedin.com"
+                aria-label="visit linkedin page"
                 ><i class="fa-brands fa-linkedin-in px-3 py-3 fs-3"></i
               ></a>
             </div>
