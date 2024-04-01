@@ -166,6 +166,8 @@
 
           <div
             class="content-form col-10 mx-auto col-md-8 col-lg-5 border rounded p-4 border-black mb-5"
+            itemscope
+            itemtype="https://schema.org/ContactPoint"
           >
             <div class="field py-2">
               <label for="fullname" class="label has-text-black">Name</label>
@@ -176,6 +178,7 @@
                   id="fullname"
                   type="text"
                   placeholder="Your name"
+                  itemprop="name"
                 />
               </div>
             </div>
@@ -189,6 +192,7 @@
                   id="youremail"
                   type="text"
                   placeholder="Your Email"
+                  itemprop="email"
                 />
               </div>
             </div>
@@ -202,6 +206,7 @@
                   id="subject"
                   type="text"
                   placeholder="Text input"
+                  itemprop="subjectOf"
                 />
               </div>
             </div>
@@ -216,6 +221,7 @@
                   class="textarea border-black has-background-white"
                   id="yourmessage"
                   placeholder="Your Message"
+                  itemprop="toRecipient"
                 ></textarea>
               </div>
             </div>
