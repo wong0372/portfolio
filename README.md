@@ -2,6 +2,8 @@
 
 <!-- Information -->
 
+< Part 1: information >
+
 1. CSS library - use in contact form
    credit: https://bulma.io/documentation/form/general/
 
@@ -10,6 +12,8 @@
 4. All images, including the SVG files, are owned by me.
 
 <!-- Answer the questions -->
+
+< Part 2: Answer the questions >
 
 1. My process for this website
 
