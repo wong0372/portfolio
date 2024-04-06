@@ -1,29 +1,38 @@
-# portfolio
+# Portfolio
 
 <!-- Information -->
 
-## < Part 1: information >
+## < Part 1: Figma prototype >
 
-1. CSS library -
-   used in home page
-   credit: https://animate.style/
+[Emma Labo](https://www.figma.com/proto/7laLHF2R3oUPd59b20VAnV/Wong_ChingMan_Prototype?type=design&node-id=1-3&t=MbeEykeH3mWmT1X7-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
 
-   use in contact form
-   credit: https://bulma.io/documentation/form/general/
+## < Part 2: information >
 
-2. Used google font - Cinzel and Raleway
+1. **CSS library**
+
+   - used in whole portfolio website
+   - credit: [Bootstrap](https://getbootstrap.com/)
+
+   - used in home page
+   - credit: [Animatestyle](https://animate.style/)
+
+   - use in contact form
+   - credit: [Bulma](https://bulma.io/documentation/form/general/)
+
+2. **Used google font**
+   - Cinzel and Raleway
 3. Schema info is added (itemscope itemtype = VisualArtwork, Person, Contact point)
 4. All images, including the SVG files, are owned by me.
 
 <!-- Answer the questions -->
 
-< Part 2: Answer the questions >
+## < Part 3: Answer the questions >
 
-1. My process for this website
+1. **My process for this website**
 
    First, I built up the content of the home page by adding font styles, Bootstrap, icons, and a custom CSS link. Then, I created the body and footer. After fixing the issues and layout with the navigation bar and footer, I proceeded to work on other pages. Once all pages were completed, I added skip links and then added optimized photos. Finally, I added ARIA roles and schema markup. After adding all these elements, I used the extension WAVE to check the contrast and fix any errors.
 
-2. Challenges I faced during development and how I overcame those changes.
+2. **Challenges I faced during development and how I overcame those changes.**
 
    As I'm not yet familiar with Bootstrap, it took me some time to adjust to this new way of thinking and I was trying to remember the usage of Bootstrap classes. Consequently, home page is the page I spent the most time on. However, after building the homepage, I found that I started to adapt and understand how to utilize Bootstrap. I especially like how Bootstrap simplifies website layout across different screen sizes, making it more convenient than using media queries.
 
@@ -33,13 +42,13 @@
 
    The second issue was I noticed a transition with a rectangular yellow background upon the mouse leaving the nav-item. To resolve this, I added a bootstrap class called 'rounded-2' to the anchor element and removed the border-radius from the CSS.
 
-3. What have I learned by creating my web portfolio?
+3. **What have I learned by creating my web portfolio?**
 
    I have been learning how to use Bootstrap, especially focusing on utilizing the col class to adjust the layout for different browser sizes.
 
    Also, I have become accustomed to checking for accessibility as well. I use extensions to assess whether the contrast is good enough and to identify any errors. For example, one error I usually encounter is missing aria labels. By using tools like WAVE, I can discover and address these problems.
 
-4. The change between the design in Figma and the website.
+4. **The change between the design in Figma and the website.**
 
    During the process of creating my website, I made some adjustments to the design from Figma and below I am going to talk about the change and reason.
 
