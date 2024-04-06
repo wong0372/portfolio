@@ -4,7 +4,11 @@
 
 < Part 1: information >
 
-1. CSS library - use in contact form
+1. CSS library -
+   used in home page
+   credit: https://animate.style/
+
+   use in contact form
    credit: https://bulma.io/documentation/form/general/
 
 2. Used google font - Cinzel and Raleway
