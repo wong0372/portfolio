@@ -2,7 +2,7 @@
 
 <!-- Information -->
 
-< Part 1: information >
+## < Part 1: information >
 
 1. CSS library -
    used in home page
