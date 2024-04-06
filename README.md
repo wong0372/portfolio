@@ -21,7 +21,7 @@
 
 2. Challenges I faced during development and how I overcame those changes.
 
-   As I'm not yet familiar with Bootstrap, it took me some time to adjust to this new way of thinking and I was trying to remember the usage of Bootstrap classes. Consequently, home page is the page I spent the most time on. However, after building the homepage, I found that I started to adapt and understand how to utilize Bootstrap. I especially like how Bootstrap simplifies website layout across different screen sizes, making it more convenient than using media queries alone.
+   As I'm not yet familiar with Bootstrap, it took me some time to adjust to this new way of thinking and I was trying to remember the usage of Bootstrap classes. Consequently, home page is the page I spent the most time on. However, after building the homepage, I found that I started to adapt and understand how to utilize Bootstrap. I especially like how Bootstrap simplifies website layout across different screen sizes, making it more convenient than using media queries.
 
    Another challenge I encountered was working on the navigation bar. Initially, the style of my navigation bar was such that before hovering, the text appeared black with a white background. Upon hovering, the text became bold, and the background color was changed to yellow with padding and bottom shadow, resembling a button. However, after completing the styling, two problems arose when hovering.
 
@@ -33,7 +33,7 @@
 
    I have been learning how to use Bootstrap, especially focusing on utilizing the col class to adjust the layout for different browser sizes.
 
-   Now, I have become accustomed to checking for accessibility as well. I use extensions to assess whether the contrast is good enough and to identify any errors. For example, one error I usually encounter is missing aria labels. By using tools like WAVE, I can discover and address these problems.
+   Also, I have become accustomed to checking for accessibility as well. I use extensions to assess whether the contrast is good enough and to identify any errors. For example, one error I usually encounter is missing aria labels. By using tools like WAVE, I can discover and address these problems.
 
 4. The change between the design in Figma and the website.
 
