@@ -10,19 +10,22 @@
 
 1. **CSS library**
 
-   - used in whole portfolio website
-   - credit: [Bootstrap](https://getbootstrap.com/)
+   - credit: [Bootstrap](https://getbootstrap.com/) - used in whole portfolio website
 
-   - used in home page
-   - credit: [Animatestyle](https://animate.style/)
+   - credit: [Animatestyle](https://animate.style/) - used in home page
 
-   - use in contact form
-   - credit: [Bulma](https://bulma.io/documentation/form/general/)
+   - credit: [Bulma](https://bulma.io/documentation/form/general/) - use in contact form
 
 2. **Used google font**
+
    - Cinzel and Raleway
-3. Schema info is added (itemscope itemtype = VisualArtwork, Person, Contact point)
-4. All images, including the SVG files, are owned by me.
+
+3. **Schema**
+
+   - Schema info is added (itemscope itemtype = VisualArtwork, Person, Contact point)
+
+4. **Image copyright**
+   - All images, including the SVG files, are owned by me.
 
 <!-- Answer the questions -->
 
