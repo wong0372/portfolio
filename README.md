@@ -4,7 +4,9 @@
 
 ## < Part 1: Figma prototype >
 
-[Emma Labo](https://www.figma.com/proto/7laLHF2R3oUPd59b20VAnV/Wong_ChingMan_Prototype?type=design&node-id=1-3&t=MbeEykeH3mWmT1X7-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
+1. [Emma Labo](https://www.figma.com/proto/7laLHF2R3oUPd59b20VAnV/Wong_ChingMan_Prototype?type=design&node-id=1-3&t=MbeEykeH3mWmT1X7-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
+
+2. PDF is added in PDF folder.
 
 ## < Part 2: information >
 
